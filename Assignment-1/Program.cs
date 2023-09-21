@@ -8,7 +8,7 @@ namespace Assignment_1
         {
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Please Choose any one program from below option");
-            Console.WriteLine("1.Display_5_friend_name \n2.squareofnumbers \n3. placename ");
+            Console.WriteLine("1.Display_5_friend_name \n2.squareofnumbers \n3. placename \n4.Area and perimeter of circle");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch(choose)
             {
@@ -39,6 +39,14 @@ namespace Assignment_1
 
                     
                     h.PlaceNameInCasing(inputPlace);
+                    break;
+                case 4:
+                    Console.Write("Enter the diameter of the circle: ");
+                    double diameter = Convert.ToDouble(Console.ReadLine());
+
+                    AreaAndPerimeter ap = new AreaAndPerimeter(diameter);
+                    
+
                     break;
                 
 

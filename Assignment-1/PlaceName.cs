@@ -14,7 +14,7 @@ namespace Assignment_1
             string placeInUppercase = placeName.ToUpper();
 
             
-            Console.WriteLine( "placeInUppercase");
+            Console.WriteLine($"Place in Uppercase:{ placeInUppercase} ");
 
             
             string placeInLowercase = placeName.ToLower();
