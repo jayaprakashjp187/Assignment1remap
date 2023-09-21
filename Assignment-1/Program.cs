@@ -8,7 +8,7 @@ namespace Assignment_1
         {
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Please Choose any one program from below option");
-            Console.WriteLine("1.Display_5_friend_name \n2.Unique_Elements\n3.Count_the_frequency\n4.Min_Max_Element\n5.Star_Pattern\n6.Square_Star_Pattern\n7.Reverse_a_word\n8.Sum_of_digit\n9.Sum_of_row");
+            Console.WriteLine("1.Display_5_friend_name \n2.SquareOfNumbers");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch(choose)
             {
