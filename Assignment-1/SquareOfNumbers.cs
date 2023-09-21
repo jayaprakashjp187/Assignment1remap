@@ -10,22 +10,22 @@ namespace Assignment_1
     {
         public SquareOfNumbers(double a, double b)
         {
-            double sumSquared = CalculateSquareOfSum(a, b); // Call the function to calculate the square of the sum
-            Console.WriteLine($"Square of the sum: {sumSquared}"); // Display the result
+            double sumSquared = CalculateSquareOfSum(a, b); 
+            Console.WriteLine($"Square of the sum: {sumSquared}"); 
 
-            // Calculate and display the square of the difference
-            double diffSquared = CalculateSquareOfDifference(a, b); // Call the function to calculate the square of the difference
-            Console.WriteLine($"Square of the difference: {diffSquared}"); // Display the result
+            
+            double diffSquared = CalculateSquareOfDifference(a, b); 
+            Console.WriteLine($"Square of the difference: {diffSquared}"); 
         }
 
-        // Function to calculate the square of the sum
+        
         static double CalculateSquareOfSum(double num1, double num2)
         {
             double sum = num1 + num2; // Calculate the sum of the two numbers
             return sum * sum; // Calculate and return the square of the sum
         }
 
-        // Function to calculate the square of the difference
+        
         static double CalculateSquareOfDifference(double num1, double num2)
         {
             double difference = num1 - num2; // Calculate the difference between the two numbers
