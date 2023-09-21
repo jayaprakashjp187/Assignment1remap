@@ -8,7 +8,7 @@ namespace Assignment_1
         {
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Please Choose any one program from below option");
-            Console.WriteLine("1.Display_5_friend_name \n2.Unique_Elements\n3.Count_the_frequency\n4.Min_Max_Element\n5.Star_Pattern\n6.Square_Star_Pattern\n7.Reverse_a_word\n8.Sum_of_digit\n9.Sum_of_row");
+            Console.WriteLine("1.Display_5_friend_name \n2.squareofnumbers \n3. placename ");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch(choose)
             {
@@ -18,7 +18,7 @@ namespace Assignment_1
                     
                     break;
                  case 2:
-                    Console.WriteLine("unique elements are");
+                    Console.WriteLine("square numbers ");
                     Console.WriteLine("enter first number");
                     double a= Convert.ToDouble(Console.ReadLine());
                     Console.WriteLine("Enter second number");
@@ -27,6 +27,23 @@ namespace Assignment_1
                     SquareOfNumbers c = new SquareOfNumbers(a,b);
                    
                     break;
+                    case 3:
+                    
+                    PlaceName h = new PlaceName();
+
+                  
+                    Console.Write("Enter a what placename  you want to visit");
+
+                   
+                    string inputPlace = Console.ReadLine();
+
+                    
+                    h.PlaceNameInCasing(inputPlace);
+                    break;
+                
+
+                     
+
 
             }
         }
