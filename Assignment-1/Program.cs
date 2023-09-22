@@ -1,4 +1,5 @@
-﻿using System.Transactions;
+﻿using System.Diagnostics;
+using System.Transactions;
 
 namespace Assignment_1
 {
@@ -8,7 +9,7 @@ namespace Assignment_1
         {
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Please Choose any one program from below option");
-            Console.WriteLine("1.Display_5_friend_name \n2.squareofnumbers \n3. placename \n4.Area and perimeter of circle");
+            Console.WriteLine("1.Display_5_friend_name \n2.squareofnumbers \n3. placename \n4.Area and perimeter of circle\n5.stopwatch");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch(choose)
             {
@@ -48,6 +49,13 @@ namespace Assignment_1
                     
 
                     break;
+                case 5:
+                
+                    Console.WriteLine("welcome to the Stopwatch Program");
+                    StopWatch.CheckingStopWatch();
+                    break;
+
+                    
                 
 
                      
